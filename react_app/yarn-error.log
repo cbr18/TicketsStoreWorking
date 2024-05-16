@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add --dev concurrently
+
+PATH: 
+  C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\brg20\AppData\Local\Microsoft\WindowsApps;C:\Users\brg20\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\dotnet\;C:\Program Files\swipl\bin;C:\Program Files\Go\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\swipl\bin;C:\Users\brg20\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\brg20\AppData\Local\Programs\Python\Python312\;C:\Users\brg20\AppData\Local\Microsoft\WindowsApps;C:\Users\brg20\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\brg20\go\bin;C:\Users\brg20\AppData\Local\Yarn\bin;C:\Users\brg20\AppData\Roaming\npm;C:\Users\brg20\AppData\Local\GitHubDesktop\bin;;c:\Users\brg20\.cache\trunk\launcher
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  21.7.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, rmdir 'C:\Users\brg20\Документы\Study\Web\TicketsStore\react_app\node_modules\.bin'
+
+npm manifest: 
+  {
+    "name": "react_app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.17.0",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "axios": "^1.6.8",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1",
+      "web-vitals": "^2.1.4",
+      "yarn": "^1.22.22"
+    },
+    "scripts": {
+      "start": "concurrently \"yarn run start:react\" \"yarn run start:django\"",
+      "start:react": "react-scripts start",
+      "start:django": "cd ../django_project && python manage.py runserver",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+      
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

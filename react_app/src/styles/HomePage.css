@@ -1,0 +1,15 @@
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.logout-button {
+  background-color: #f1f3f7;
+  color: #3a70d5;
+  border: 1px solid #3a70d5;
+}
+
+.logout-button:hover {
+  background-color: #f6a048;
+  border-color: #f6a048;
+}
